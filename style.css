@@ -6,14 +6,13 @@
 .container {
   max-width: 1500px;
   margin: auto;
-  padding: 40px 0;
 }
 /* navbar-section */
 
 nav {
   display: flex;
   justify-content: space-between;
-
+  padding: 40px 0;
   background-color: #ffffff;
 }
 nav img {
@@ -60,6 +59,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 100%;
+  padding: 40px 0;
 }
 .banner h1 {
   font-size: 80px;
@@ -74,6 +74,7 @@ header {
 .btn {
   font-size: 24px;
   padding: 20px 50px;
+  margin-top: 30px;
 }
 
 .banner-content {
@@ -82,4 +83,50 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 20px;
+}
+/* speaker-section */
+.speaker-section-content {
+  text-align: center;
+}
+.speaker-section-content h1 {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 56px;
+  font-weight: bold;
+  color: #000102;
+}
+.speaker-images-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.speaker-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 15px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.speaker-card img {
+  width: 100%;
+  object-fit: cover;
+}
+.speaker-card-content {
+  padding: 20px;
+  line-height: 1.67;
+}
+.speaker-card-content h5 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.speaker-card-content h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0d1b2a;
+}
+.speaker-card-content p {
+  font-size: 14px;
+  color: #575757;
 }
