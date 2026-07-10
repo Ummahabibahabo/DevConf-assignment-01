@@ -250,3 +250,156 @@ header {
   cursor: pointer;
   transition: 0.3s;
 }
+/* ai challenge */
+.challenge-section-title {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 56px;
+  font-weight: bold;
+  color: #000102;
+}
+
+.challenge-section {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+    url("./assets/Devconfo.png");
+
+  height: full;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+
+  padding: 100px 0;
+
+  /* align-items: center; */
+}
+
+.challenge-section-content {
+  text-align: center;
+  color: white;
+}
+
+.challenge-section h1 {
+  color: white;
+  font-weight: 800;
+  font-size: 80px;
+}
+.challenge-section h3 {
+  color: #2563eb;
+  font-weight: 800;
+  font-size: 80px;
+}
+.challenge-section h4 {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.challenge-section p {
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 1.67;
+}
+/* challenge-cards */
+.challenge-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 0 40px;
+  margin-top: 20px;
+}
+.card {
+  background: rgba(10, 20, 45, 0.85);
+  border: 1px solid #3155ff;
+  border-radius: 15px;
+  padding: 30px 20px;
+  text-align: center;
+}
+.card-imgage {
+  width: 70px;
+  height: 70px;
+  background-color: #a4adcd;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 15px;
+}
+.card img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+.card h1 {
+  color: white;
+  font-size: 22px;
+}
+
+.card h2 {
+  color: #2563eb;
+  font-size: 25px;
+  margin: 12px 0;
+}
+
+.card p {
+  color: #ddd;
+  font-size: 17px;
+}
+.register-btn {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0;
+}
+
+.challenge-btn {
+  padding: 18px 60px;
+  font-size: 24px;
+  border-radius: 12px;
+  background: #3155ff;
+  box-shadow: 0 0 20px rgba(49, 85, 255, 0.5);
+}
+
+/* challenge-feature-section */
+.feature-cards {
+  border-top: 1px solid rgba(46, 44, 44, 0.879);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 80px;
+  margin-top: 20px;
+}
+.feature-card {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  border-right: 1px solid rgba(46, 44, 44, 0.879);
+  margin-top: 20px;
+}
+.feature-card:last-child {
+  border-right: none;
+}
+.feature-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-card img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.feature-card h6 {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.feature-card p {
+  color: #d1d5db;
+  font-size: 15px;
+}
