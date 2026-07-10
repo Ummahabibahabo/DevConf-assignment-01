@@ -85,9 +85,7 @@ header {
   gap: 20px;
 }
 /* speaker-section */
-.speaker-section-content {
-  text-align: center;
-}
+
 .speaker-section-content h1 {
   text-align: center;
   padding: 50px 0;
@@ -129,4 +127,126 @@ header {
 .speaker-card-content p {
   font-size: 14px;
   color: #575757;
+}
+
+/* pricing-section */
+.pricing-section {
+  padding: 100px 0;
+}
+.pricing-section h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+  color: #0d1b2a;
+}
+.pricing-subtitle {
+  text-align: center;
+  font-size: 16px;
+  color: #575757;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+.price-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e5e7eb;
+  padding: 30px;
+  border-radius: 15px;
+}
+.price-card h5 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #888888;
+}
+.price-card h2 {
+  font-size: 44px;
+  font-weight: bold;
+  color: #0d1b2a;
+}
+.price-card p {
+  font-size: 13px;
+  color: #888888;
+}
+
+.price-card hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  border-top: 1px solid #e5e7eb;
+}
+.price-card-content {
+  line-height: 1.87;
+}
+.price-card ul {
+  list-style: disc;
+  padding-left: 18px;
+  flex: 1;
+}
+.price-card ul li {
+  color: #333333;
+  line-height: 1.67;
+}
+
+.price-card ul li::marker {
+  color: #2563eb;
+}
+.pricing-btn {
+  background-color: white;
+  color: #2563eb;
+  border: 1px solid #2563eb;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 40px;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.pro-card {
+  background-color: #0d1b2a;
+}
+.pro-card h5 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #93c5fd;
+}
+.pro-card h2 {
+  font-size: 44px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.pro-card ul li {
+  color: #ffffff;
+}
+.pro-card hr {
+  border: none;
+  border-top: 1px solid #334155;
+}
+.pro-btn {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+.pro-card p {
+  color: #cbd5e1;
+}
+.team-btn {
+  background-color: white;
+  color: #0d1b2a;
+  border: 1px solid #0d1b2a;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 40px;
+  border-radius: 8px;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
 }
