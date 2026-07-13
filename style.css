@@ -162,7 +162,8 @@ nav ul li a {
   border: 1px solid #e5e7eb;
   padding: 30px;
   border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
 }
 .price-card h5 {
   font-size: 13px;
