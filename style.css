@@ -44,26 +44,30 @@ nav ul li a {
   background-color: #1e40af;
 }
 /* banner-section */
-header {
+.banner-header {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("./assets/banner.jpg");
   height: 90vh;
-  max-width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+/* Banner-section */
 .banner {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  width: 100%;
+  height: 90vh;
   padding: 40px 0;
 }
 .banner h1 {
   font-size: 80px;
   color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 25px;
+  line-height: 1.2;
 }
 .banner p {
   font-size: 22px;
@@ -151,12 +155,14 @@ header {
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
 }
+
 .price-card {
   display: flex;
   flex-direction: column;
   border: 1px solid #e5e7eb;
   padding: 30px;
   border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 .price-card h5 {
   font-size: 13px;
@@ -203,7 +209,7 @@ header {
   font-weight: 600;
   padding: 10px 40px;
   border-radius: 8px;
-  width: 100%;
+  max-width: 100%;
   margin-top: 20px;
   cursor: pointer;
   transition: 0.3s;
@@ -245,7 +251,7 @@ header {
   font-weight: 600;
   padding: 10px 40px;
   border-radius: 8px;
-  width: 100%;
+  max-width: 100%;
   margin-top: 20px;
   cursor: pointer;
   transition: 0.3s;
@@ -465,7 +471,7 @@ footer hr {
   gap: 60px;
 }
 
-.social-icons i {
+.social-icons a {
   background-color: white;
   width: 70px;
   height: 70px;
@@ -479,9 +485,8 @@ footer hr {
   transition: 3s;
   cursor: pointer;
 }
-.social-icons i:hover {
+.social-icons a:hover {
   background: #2563eb;
-  width: 60px;
 }
 /* footer-bottom */
 .footer-bottom {
